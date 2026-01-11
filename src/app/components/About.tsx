@@ -82,16 +82,13 @@ export function About({ description }: AboutProps) {
               </p>
             </div>
           ) : (
-            <div className="bg-white rounded-2xl shadow-sm p-8 md:p-10 border-2 border-dashed border-gray-200">
-              <div className="flex flex-col items-center justify-center text-center">
-                <AlertCircle className="w-12 h-12 text-gray-400 mb-4" />
-                <p className="text-lg text-gray-700 leading-relaxed mb-6">
+            <div className="bg-white rounded-2xl shadow-sm p-8 md:p-10">
+              <p className="text-lg text-gray-700 leading-relaxed mb-6">
                 At BrightSmile Dental Clinic, we are committed to providing exceptional dental care in a comfortable and modern environment. Our team of experienced dentists and hygienists use the latest technology to ensure you receive the best possible treatment.
               </p>
-                <p className="text-lg text-gray-700 leading-relaxed">
+              <p className="text-lg text-gray-700 leading-relaxed">
                 With over 15 years of experience serving the San Francisco community, we pride ourselves on building lasting relationships with our patients. From routine cleanings to complex procedures, we're here to keep your smile bright and healthy.
               </p>
-              </div>
             </div>
           )}
         </motion.div>

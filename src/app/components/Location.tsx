@@ -5,9 +5,15 @@ import { Skeleton } from './ui/skeleton';
 
 interface LocationProps {
   mapImage: string;
+  name: string;
+  address: string
 }
 
-export function Location({ mapImage }: LocationProps) {
+export function Location({ mapImage, name="BrightSmile Dental Clinic",
+    address=`
+    123 Market Street<br />
+    San Francisco, CA 94102<br />
+    United States` }: LocationProps) {
   const [imageLoaded, setImageLoaded] = useState(false);
 
   return (
@@ -54,12 +60,10 @@ export function Location({ mapImage }: LocationProps) {
                   </div>
                   <div>
                     <h3 className="font-semibold text-gray-900 mb-1">
-                      BrightSmile Dental Clinic
+                      {name}
                     </h3>
                     <p className="text-gray-600 leading-relaxed">
-                      123 Market Street<br />
-                      San Francisco, CA 94102<br />
-                      United States
+                      {address}
                     </p>
                   </div>
                 </div>

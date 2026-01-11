@@ -173,7 +173,7 @@ export function Contact({ contactInfo }: ContactProps) {
                   </motion.a>
                 )}
 
-                {hasWhatsApp && (
+                {hasWhatsApp ?
                   <motion.a
                     href={`https://wa.me/${contactInfo!.whatsapp}`}
                     target="_blank"
@@ -186,9 +186,28 @@ export function Contact({ contactInfo }: ContactProps) {
                       {contactInfo!.whatsapp}
                     </p>
                   </motion.a>
-                )}
+                :
+                <motion.a
+                    href={`https://wa.me/${contactInfo.whatsapp}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    initial={{ opacity: 0, y: 20 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true }}
+                    transition={{ duration: 0.5, delay: 0.2 }}
+                    className="bg-white rounded-2xl p-6 shadow-sm hover:shadow-md transition-all duration-200 border border-gray-100 group"
+                  >
+                    <div className="w-14 h-14 bg-green-50 rounded-xl flex items-center justify-center mb-4 group-hover:bg-green-100 transition-colors duration-200">
+                      <MessageCircle className="w-7 h-7 text-green-600" />
+                    </div>
+                    <h3 className="font-semibold text-gray-900 mb-2">WhatsApp</h3>
+                    <p className="text-gray-600 text-sm">
+                      {contactInfo.whatsapp || '+1 555 123 4567'}
+                    </p>
+                  </motion.a>
+                }
 
-                {hasEmail && (
+                {hasEmail ?
                   <motion.a
                     href={`mailto:${contactInfo!.email}`}
                     className="bg-white rounded-2xl p-6 shadow-sm hover:shadow-md transition-all border border-gray-100"
@@ -199,7 +218,24 @@ export function Contact({ contactInfo }: ContactProps) {
                       {contactInfo!.email}
                     </p>
                   </motion.a>
-                )}
+                  :
+                  <motion.a
+                    href={`mailto:${contactInfo.email}`}
+                    initial={{ opacity: 0, y: 20 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true }}
+                    transition={{ duration: 0.5, delay: 0.3 }}
+                    className="bg-white rounded-2xl p-6 shadow-sm hover:shadow-md transition-all duration-200 border border-gray-100 group"
+                  >
+                    <div className="w-14 h-14 bg-purple-50 rounded-xl flex items-center justify-center mb-4 group-hover:bg-purple-100 transition-colors duration-200">
+                      <Mail className="w-7 h-7 text-purple-600" />
+                    </div>
+                    <h3 className="font-semibold text-gray-900 mb-2">Email</h3>
+                    <p className="text-gray-600 text-sm break-all">
+                      {contactInfo.email || 'info@brightsmile.com'}
+                    </p>
+                  </motion.a>
+                }
               </div>
             ) : (
               <div className="bg-white rounded-2xl p-10 border-2 border-dashed border-gray-300 text-center">

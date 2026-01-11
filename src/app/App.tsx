@@ -147,17 +147,37 @@ export default function App() {
     const [businesses, setBusinesses] = useState<Business[]>([]);
     const [activeBusiness, setActiveBusiness] = useState<Business | null>(null);
 
+//     useEffect(() => {
+//       fetch("/data/businesses.json")
+//         .then(res => res.json())
+//         .then(data => {
+//           setBusinesses(data);
+//           setActiveBusiness(data[0]); // for now: first business
+//         })
+//         .catch(err => {
+//           console.error("Failed to load businesses.json", err);
+//         });
+//     }, []);
+//
+//     print(activeBusiness)
+
     useEffect(() => {
       fetch("/data/businesses.json")
-        .then(res => res.json())
-        .then(data => {
-          setBusinesses(data);
-          setActiveBusiness(data[0]); // for now: first business
+        .then(res => {
+          if (!res.ok) throw new Error("Failed to fetch businesses.json");
+          return res.json();
+        })
+        .then((data: Business[]) => {
+//           setBusinesses(data);
+//           setActiveBusiness(data[0]);
+            setBusinesses(data.businesses);
+            setActiveBusiness(data.businesses[6]);
         })
         .catch(err => {
           console.error("Failed to load businesses.json", err);
         });
     }, []);
+
 
   // High-quality dental clinic images from Unsplash
   const heroImage = 'https://images.unsplash.com/photo-1704455306925-1401c3012117?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkZW50YWwlMjBjbGluaWMlMjBpbnRlcmlvcnxlbnwxfHx8fDE3NjgwODM1Nzh8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral';
@@ -198,7 +218,10 @@ export default function App() {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Navigation */}
-      <Navigation />
+      <Navigation
+        name={activeBusiness.name}
+        whatsapp={activeBusiness.whatsapp}
+      />
 
       {/* Hero Section - Full width, starts below nav */}
       <div className="pt-16">
@@ -225,7 +248,8 @@ export default function App() {
 
       {/* Services Section */}
       <Services
-        services={activeBusiness.services}
+        hasServices={true}
+//         services={activeBusiness.services}
       />
 
       {/* Reviews Section */}
@@ -234,7 +258,7 @@ export default function App() {
       />
 
       {/* Location Section */}
-      <Location mapImage={mapImage} />
+      <Location name={activeBusiness.name} mapImage={mapImage} address={activeBusiness.address}/>
 
       {/* Contact Section */}
       <Contact
@@ -242,7 +266,7 @@ export default function App() {
       />
 
       {/* Footer */}
-      <Footer />
+      <Footer name={activeBusiness.name} address={activeBusiness.address} city={activeBusiness.city}/>
 
       {/* WhatsApp Floating Action Button (Mobile) */}
       <WhatsAppFAB />

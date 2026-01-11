@@ -1,5 +1,4 @@
 // Dental Clinic Website Template/src/app/components/Service.tsx
-/*
 import { Sparkles, Smile, Stethoscope, Scissors, AlertCircle } from 'lucide-react';
 import { motion } from 'motion/react';
 
@@ -107,9 +106,9 @@ export function Services({ hasServices = true }: ServicesProps) {
     </section>
   );
 }
-*/
 
 // Dental Clinic Website Template/src/app/components/Service.tsx
+/*
 import { Sparkles, Smile, Stethoscope, Scissors, AlertCircle } from 'lucide-react';
 import { motion } from 'motion/react';
 import type { ReactNode } from 'react';
@@ -201,3 +200,4 @@ export function Services({ services }: ServicesProps) {
     </section>
   );
 }
+*/

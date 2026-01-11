@@ -2,7 +2,12 @@ import { useState } from 'react';
 import { Menu, X, MessageCircle } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 
-export function Navigation() {
+interface NavProps {
+  name?: string;
+  whatsapp?: string;
+}
+
+export function Navigation({name = "BrightSmile Dental Clinic", whatsapp = "1234567890"}: NavProps) {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const scrollToSection = (id: string) => {
@@ -30,7 +35,7 @@ export function Navigation() {
               onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
               className="text-xl font-semibold text-blue-600 hover:text-blue-700 transition-colors duration-200"
             >
-              BrightSmile Dental
+              {name}
             </button>
           </div>
 
