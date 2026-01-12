@@ -1,0 +1,39 @@
+{
+  "id": "mwatu-dental-clinic",
+  "slug": "mwatu-dental-clinic",
+  "name": "Mwatu dental clinic",
+  "category": "Hospital",
+  "city": "Kampala, Uganda",
+  "address": "8H6P+R22, Kampala Road, Kampala",
+  "phone": "754668822",
+  "email": "",
+  "website": "",
+  "rating": 3.5,
+  "review_count": 4,
+  "about": "",
+  "preview": "Trusted Hospital in Kampala, Uganda",
+  "cta": {
+    "type": "whatsapp",
+    "label": "Contact Business"
+  },
+  "location": {
+    "maps_url": "https://www.google.com/maps/place/Mwatu+dental+clinic/@0.3280444,32.5344236,14z/data=!4m10!1m2!2m1!1sdental+clinics+in+Kampala,+Uganda!3m6!1s0x177dbdcafe3cffc3:0x35934a437669d1ff!8m2!3d0.3120091!4d32.5850013!15sCiFkZW50YWwgY2xpbmljcyBpbiBLYW1wYWxhLCBVZ2FuZGGSAQhob3NwaXRhbOABAA!16s%2Fg%2F11h1djntvj?entry=ttu&g_ep=EgoyMDI2MDEwNy4wIKXMDSoASAFQAw%3D%3D"
+  },
+  "reviews": [
+    {
+      "author": "Victoria Escodatah",
+      "rating": 0,
+      "text": "Did 3 root canal sessions but the tooth was still paining. Went to a different dental clinic and did an X-ray and the nerves were still there. Had to redo the root canal at jubilee"
+    },
+    {
+      "author": "Duncan Cedric",
+      "rating": 4,
+      "text": "Nice location easily accessible plus it's near some good parking space(required payment depending on time)"
+    },
+    {
+      "author": "hadijah nambi",
+      "rating": 4,
+      "text": "Dr. Ben is very good and caring."
+    }
+  ]
+}

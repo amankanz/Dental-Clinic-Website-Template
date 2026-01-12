@@ -1,0 +1,39 @@
+{
+  "id": "the-dental-office-kampala-the-d-o-k",
+  "slug": "the-dental-office-kampala-the-d-o-k",
+  "name": "The Dental Office Kampala (The D.O.K)",
+  "category": "Dentist",
+  "city": "Kampala, Uganda",
+  "address": "10 Jinja Road, Kampala",
+  "phone": "742395879",
+  "email": "",
+  "website": "",
+  "rating": 5.0,
+  "review_count": 3,
+  "about": "",
+  "preview": "Trusted Dentist in Kampala, Uganda",
+  "cta": {
+    "type": "whatsapp",
+    "label": "Contact Business"
+  },
+  "location": {
+    "maps_url": "https://www.google.com/maps/place/The+Dental+Office+Kampala+(The+D.O.K)/@0.3280444,32.5344236,14z/data=!4m10!1m2!2m1!1sdental+clinics+in+Kampala,+Uganda!3m6!1s0x177dbd007daa00bf:0x8e32cc3c38ba49e!8m2!3d0.3142707!4d32.5897234!15sCiFkZW50YWwgY2xpbmljcyBpbiBLYW1wYWxhLCBVZ2FuZGFaIiIgZGVudGFsIGNsaW5pY3MgaW4ga2FtcGFsYSB1Z2FuZGGSAQdkZW50aXN0mgFEQ2k5RFFVbFJRVU52WkVOb2RIbGpSamx2VDIxT1RWZEZORFJPU0ZadVlqSTVTVmRIWkVaU1ZYUTJXWHBvY2xSdFl4QULgAQD6AQQIVhA5!16s%2Fg%2F11yqsy4nty?entry=ttu&g_ep=EgoyMDI2MDEwNy4wIKXMDSoASAFQAw%3D%3D"
+  },
+  "reviews": [
+    {
+      "author": "Faith Peter Aketch",
+      "rating": 5,
+      "text": "Best dental care I\u2019ve received\u2026They handled my dental anxiety with care and patience. Modern equipment and excellent follow-up after treatment. Five stars all the way\u2026"
+    },
+    {
+      "author": "Courage Hassan",
+      "rating": 5,
+      "text": "Such a flexible appointment schedule at this clinic.Amazing dental treatments delivered with care and professionalism."
+    },
+    {
+      "author": "Wamani Barnabas",
+      "rating": 5,
+      "text": "It's an excellent clinic with wonderful services"
+    }
+  ]
+}

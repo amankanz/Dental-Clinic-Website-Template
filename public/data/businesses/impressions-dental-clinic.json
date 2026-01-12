@@ -1,0 +1,23 @@
+{
+  "id": "impressions-dental-clinic",
+  "slug": "impressions-dental-clinic",
+  "name": "Impressions Dental Clinic",
+  "category": "Dental clinic",
+  "city": "Kampala, Uganda",
+  "address": "Coral Cres, Kampala",
+  "phone": "392002015",
+  "email": "",
+  "website": "",
+  "rating": 3.7,
+  "review_count": 3,
+  "about": "",
+  "preview": "Trusted Dental clinic in Kampala, Uganda",
+  "cta": {
+    "type": "whatsapp",
+    "label": "Contact Business"
+  },
+  "location": {
+    "maps_url": "https://www.google.com/maps/place/Impressions+Dental+Clinic/@0.3287896,32.5569652,14z/data=!4m10!1m2!2m1!1sdental+clinics+in+Kampala,+Uganda!3m6!1s0x177dbb9ae56a8f37:0xf011be605e44bb05!8m2!3d0.3145651!4d32.5839546!15sCiFkZW50YWwgY2xpbmljcyBpbiBLYW1wYWxhLCBVZ2FuZGGSAQ1kZW50YWxfY2xpbmlj4AEA!16s%2Fg%2F11c6cbngbb?entry=ttu&g_ep=EgoyMDI2MDEwNy4wIKXMDSoASAFQAw%3D%3D"
+  },
+  "reviews": []
+}
