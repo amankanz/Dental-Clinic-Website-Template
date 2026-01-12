@@ -147,20 +147,6 @@ export default function App() {
     const [businesses, setBusinesses] = useState<Business[]>([]);
     const [activeBusiness, setActiveBusiness] = useState<Business | null>(null);
 
-//     useEffect(() => {
-//       fetch("/data/businesses.json")
-//         .then(res => res.json())
-//         .then(data => {
-//           setBusinesses(data);
-//           setActiveBusiness(data[0]); // for now: first business
-//         })
-//         .catch(err => {
-//           console.error("Failed to load businesses.json", err);
-//         });
-//     }, []);
-//
-//     print(activeBusiness)
-
     useEffect(() => {
       fetch("/data/businesses.json")
         .then(res => {
