@@ -15,5 +15,8 @@ export default defineConfig({
       // Alias @ to the src directory
       '@': path.resolve(__dirname, './src'),
     },
+    server: {
+        historyApiFallback: true,
+    },
   },
 })

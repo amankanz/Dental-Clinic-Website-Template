@@ -1,3 +1,4 @@
+// Dental Clinic Website Template/src/app/components/Navigation.tsx
 import { useState } from 'react';
 import { Menu, X, MessageCircle } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
