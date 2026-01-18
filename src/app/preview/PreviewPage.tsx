@@ -1,5 +1,4 @@
 // locallead/Dental Clinic Website Template/src/app/preview/PreviewPage.tsx
-
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 
@@ -23,23 +22,6 @@ export default function PreviewPage() {
   const [business, setBusiness] = useState<Business | null>(null);
   const [loading, setLoading] = useState(true);
 
-//   useEffect(() => {
-//     if (!slug) return;
-//
-//     fetch(`/data/businesses/${slug}.json`)
-//       .then((res) => {
-//         if (!res.ok) throw new Error("Business not found");
-//         return res.json();
-//       })
-//       .then((data: Business) => {
-//         setBusiness(data);
-//       })
-//       .catch((err) => {
-//         console.error("Preview load error:", err);
-//         setBusiness(null);
-//       })
-//       .finally(() => setLoading(false));
-//   }, [slug]);
 
     useEffect(() => {
   if (!slug) return;
@@ -105,7 +87,7 @@ export default function PreviewPage() {
           city={business.city}
           address={business.address}
           whatsapp={business.whatsapp}
-          mapsUrl={business.maps_url}
+          mapsUrl={business.location.maps_url}
         />
       </div>
 
@@ -115,7 +97,6 @@ export default function PreviewPage() {
 
       <Services
         services={business.services}
-//         hasServices={!!business.services?.length}
         hasServices={true}
       />
 
@@ -128,6 +109,7 @@ export default function PreviewPage() {
         name={business.name}
         mapImage={mapImage}
         address={business.address}
+        mapsUrl={business.location.maps_url}
       />
 
       <Contact contactInfo={contactInfo} />

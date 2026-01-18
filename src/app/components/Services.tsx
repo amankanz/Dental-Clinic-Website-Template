@@ -1,4 +1,4 @@
-// Dental Clinic Website Template/src/app/components/Service.tsx
+// locallead/Dental Clinic Website Template/src/app/components/Service.tsx
 import { Sparkles, Smile, Stethoscope, Scissors, AlertCircle } from 'lucide-react';
 import { motion } from 'motion/react';
 

@@ -7,13 +7,14 @@ interface LocationProps {
   mapImage: string;
   name: string;
   address: string
+  mapsUrl: string
 }
 
 export function Location({ mapImage, name="BrightSmile Dental Clinic",
     address=`
     123 Market Street<br />
     San Francisco, CA 94102<br />
-    United States` }: LocationProps) {
+    United States`, mapsUrl="https://maps.google.com" }: LocationProps) {
   const [imageLoaded, setImageLoaded] = useState(false);
 
   return (
@@ -29,7 +30,7 @@ export function Location({ mapImage, name="BrightSmile Dental Clinic",
             Visit Our Clinic
           </h2>
           <p className="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
-            Conveniently located in the heart of San Francisco
+            Conveniently located in the heart of {address.split(",")[1]}
           </p>
 
           <div className="max-w-4xl mx-auto">
@@ -69,7 +70,7 @@ export function Location({ mapImage, name="BrightSmile Dental Clinic",
                 </div>
 
                 <a
-                  href="https://maps.google.com"
+                  href={mapsUrl}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center justify-center gap-2 w-full bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors duration-200 font-medium"
