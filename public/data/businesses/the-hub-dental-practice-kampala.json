@@ -1,0 +1,23 @@
+{
+  "id": "the-hub-dental-practice-kampala",
+  "slug": "the-hub-dental-practice-kampala",
+  "name": "The Hub Dental Practice Kampala",
+  "category": "Dental clinic",
+  "city": "kampala, uganda",
+  "address": "71812, Kampala",
+  "phone": "779101638",
+  "email": "",
+  "website": "",
+  "rating": 4.8,
+  "review_count": 114,
+  "about": "",
+  "preview": "Trusted Dental clinic in kampala, uganda",
+  "cta": {
+    "type": "whatsapp",
+    "label": "Contact Business"
+  },
+  "location": {
+    "maps_url": "https://www.google.com/maps/place/The+Hub+Dental+Practice+Kampala/@0.3149085,32.5413296,14z/data=!4m10!1m2!2m1!1sdental+clinics+in+kampala,+uganda!3m6!1s0x177dbbf69914e0af:0x16f55b739af25609!8m2!3d0.3280444!4d32.5704725!15sCiFkZW50YWwgY2xpbmljcyBpbiBrYW1wYWxhLCB1Z2FuZGFaIiIgZGVudGFsIGNsaW5pY3MgaW4ga2FtcGFsYSB1Z2FuZGGSAQ1kZW50YWxfY2xpbmljmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVVJRT0hCeGVVdG5FQUXgAQD6AQQIaBBA!16s%2Fg%2F11scx0j3cy?entry=ttu&g_ep=EgoyMDI2MDExMy4wIKXMDSoASAFQAw%3D%3D"
+  },
+  "reviews": []
+}

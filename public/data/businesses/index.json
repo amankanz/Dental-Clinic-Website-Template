@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-01-19T11:38:42.787779Z",
+  "count": 3,
+  "businesses": [
+    {
+      "slug": "nex-dental-care-clinic",
+      "name": "Nex Dental CARE Clinic",
+      "category": "Dental clinic",
+      "city": "kampala, uganda",
+      "rating": null,
+      "review_count": 0,
+      "preview": "Trusted Dental clinic in kampala, uganda"
+    },
+    {
+      "slug": "impressions-dental-clinic",
+      "name": "Impressions Dental Clinic",
+      "category": "Dental clinic",
+      "city": "kampala, uganda",
+      "rating": 3.7,
+      "review_count": 3,
+      "preview": "Trusted Dental clinic in kampala, uganda"
+    },
+    {
+      "slug": "the-hub-dental-practice-kampala",
+      "name": "The Hub Dental Practice Kampala",
+      "category": "Dental clinic",
+      "city": "kampala, uganda",
+      "rating": 4.8,
+      "review_count": 114,
+      "preview": "Trusted Dental clinic in kampala, uganda"
+    }
+  ]
+}

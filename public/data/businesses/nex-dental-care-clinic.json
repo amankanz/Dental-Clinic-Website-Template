@@ -1,0 +1,23 @@
+{
+  "id": "nex-dental-care-clinic",
+  "slug": "nex-dental-care-clinic",
+  "name": "Nex Dental CARE Clinic",
+  "category": "Dental clinic",
+  "city": "kampala, uganda",
+  "address": "Kampala",
+  "phone": "706050229",
+  "email": "",
+  "website": "",
+  "rating": null,
+  "review_count": 0,
+  "about": "",
+  "preview": "Trusted Dental clinic in kampala, uganda",
+  "cta": {
+    "type": "whatsapp",
+    "label": "Contact Business"
+  },
+  "location": {
+    "maps_url": "https://www.google.com/maps/place/Nex+Dental+CARE+Clinic/@0.3206089,32.5651174,14z/data=!4m10!1m2!2m1!1sdental+clinics+in+kampala,+uganda!3m6!1s0x177dbb233910561b:0x2c69084a0eb3dac1!8m2!3d0.3151692!4d32.5816313!15sCiFkZW50YWwgY2xpbmljcyBpbiBrYW1wYWxhLCB1Z2FuZGGSAQ1kZW50YWxfY2xpbmlj4AEA!16s%2Fg%2F11krnwq2gd?entry=ttu&g_ep=EgoyMDI2MDExMy4wIKXMDSoASAFQAw%3D%3D"
+  },
+  "reviews": []
+}

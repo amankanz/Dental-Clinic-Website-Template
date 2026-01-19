@@ -3,11 +3,22 @@
 // import { CheckCircle, Eye, RefreshCw } from 'lucide-react';
 //
 // interface SuccessScreenProps {
+//   stats: {
+//     scraped: number;
+//     qualified: number;
+//     enriched: number;
+//     previews: number;
+//   };
 //   onViewBusinesses: () => void;
 //   onRunAnother: () => void;
 // }
 //
-// export function SuccessScreen({ onViewBusinesses, onRunAnother }: SuccessScreenProps) {
+// export function SuccessScreen({ stats, onViewBusinesses, onRunAnother }: SuccessScreenProps) {
+//     const successRate =
+//   stats.scraped > 0
+//     ? Math.round((stats.previews / stats.scraped) * 100)
+//     : 0;
+//
 //   return (
 //     <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-purple-50 flex items-center justify-center px-4 py-12">
 //       <motion.div
@@ -59,15 +70,15 @@
 //             className="grid grid-cols-3 gap-4 mb-12"
 //           >
 //             <div className="bg-blue-50 rounded-xl p-4 text-center">
-//               <div className="text-2xl font-bold text-blue-600 mb-1">6</div>
+//               <div className="text-2xl font-bold text-blue-600 mb-1">{stats.scraped}</div>
 //               <div className="text-xs text-gray-600">Businesses Found</div>
 //             </div>
 //             <div className="bg-purple-50 rounded-xl p-4 text-center">
-//               <div className="text-2xl font-bold text-purple-600 mb-1">6</div>
+//               <div className="text-2xl font-bold text-purple-600 mb-1">{stats.previews}</div>
 //               <div className="text-xs text-gray-600">Previews Created</div>
 //             </div>
 //             <div className="bg-green-50 rounded-xl p-4 text-center">
-//               <div className="text-2xl font-bold text-green-600 mb-1">100%</div>
+//               <div className="text-2xl font-bold text-green-600 mb-1">{successRate}%</div>
 //               <div className="text-xs text-gray-600">Success Rate</div>
 //             </div>
 //           </motion.div>
@@ -112,6 +123,8 @@
 //     </div>
 //   );
 // }
+//
+
 
 
 // locallead/Dental Clinic Website Template/src/app/components/SuccessScreen.tsx
@@ -132,7 +145,7 @@ interface SuccessScreenProps {
 export function SuccessScreen({ stats, onViewBusinesses, onRunAnother }: SuccessScreenProps) {
     const successRate =
   stats.scraped > 0
-    ? Math.round((stats.previews / stats.scraped) * 100)
+    ? Math.round((stats.enriched / stats.scraped) * 100)
     : 0;
 
   return (
@@ -190,7 +203,7 @@ export function SuccessScreen({ stats, onViewBusinesses, onRunAnother }: Success
               <div className="text-xs text-gray-600">Businesses Found</div>
             </div>
             <div className="bg-purple-50 rounded-xl p-4 text-center">
-              <div className="text-2xl font-bold text-purple-600 mb-1">{stats.previews}</div>
+              <div className="text-2xl font-bold text-purple-600 mb-1">{stats.enriched}</div>
               <div className="text-xs text-gray-600">Previews Created</div>
             </div>
             <div className="bg-green-50 rounded-xl p-4 text-center">
@@ -239,4 +252,5 @@ export function SuccessScreen({ stats, onViewBusinesses, onRunAnother }: Success
     </div>
   );
 }
+
 

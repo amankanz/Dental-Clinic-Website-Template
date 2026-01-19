@@ -1,0 +1,23 @@
+{
+  "id": "wright-dental-clinic-kansanga",
+  "slug": "wright-dental-clinic-kansanga",
+  "name": "Wright dental clinic kansanga",
+  "category": "Dental clinic",
+  "city": "kampala, uganda",
+  "address": "336c Lukuli Rd, Kampala",
+  "phone": "708546216",
+  "email": "",
+  "website": "",
+  "rating": 4.7,
+  "review_count": 36,
+  "about": "",
+  "preview": "Trusted Dental clinic in kampala, uganda",
+  "cta": {
+    "type": "whatsapp",
+    "label": "Contact Business"
+  },
+  "location": {
+    "maps_url": "https://www.google.com/maps/place/Wright+dental+clinic+kansanga/@0.272665,32.5725531,14z/data=!4m9!1m2!2m1!1sdental+clinics+in+kampala,+uganda!3m5!1s0x177dbdfe0eb53b25:0x55d11948847ff28e!8m2!3d0.2726654!4d32.608602!16s%2Fg%2F11pz33cpy7?entry=ttu&g_ep=EgoyMDI2MDExMy4wIKXMDSoKLDEwMDc5MjA3M0gBUAM%3D"
+  },
+  "reviews": []
+}

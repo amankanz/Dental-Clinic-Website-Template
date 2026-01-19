@@ -1,0 +1,23 @@
+{
+  "id": "mk-dental-hub-clinic",
+  "slug": "mk-dental-hub-clinic",
+  "name": "MK Dental Hub Clinic",
+  "category": "Dental clinic",
+  "city": "mbarara, uganda",
+  "address": "BNK Shopping Mall after Centenary Bank, Mbarara - Masaka Rd, Mbarara",
+  "phone": "771435963",
+  "email": "",
+  "website": "",
+  "rating": 4.9,
+  "review_count": 77,
+  "about": "",
+  "preview": "Trusted Dental clinic in mbarara, uganda",
+  "cta": {
+    "type": "whatsapp",
+    "label": "Contact Business"
+  },
+  "location": {
+    "maps_url": "https://www.google.com/maps/place/MK+Dental+Hub+Clinic/@-0.6076237,30.6504344,15z/data=!4m10!1m2!2m1!1sdental+clinics+in+mbarara,+uganda!3m6!1s0x19d91b87b42c18ad:0xfe166ac6ff366116!8m2!3d-0.6076664!4d30.6610875!15sCiFkZW50YWwgY2xpbmljcyBpbiBtYmFyYXJhLCB1Z2FuZGFaIiIgZGVudGFsIGNsaW5pY3MgaW4gbWJhcmFyYSB1Z2FuZGGSAQ1kZW50YWxfY2xpbmljmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVVExZW5ObFdGRm5FQUXgAQD6AQQIABAz!16s%2Fg%2F11s34jhn0t?entry=ttu&g_ep=EgoyMDI2MDExMy4wIKXMDSoASAFQAw%3D%3D"
+  },
+  "reviews": []
+}

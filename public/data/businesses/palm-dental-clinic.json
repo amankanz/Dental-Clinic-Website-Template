@@ -1,0 +1,23 @@
+{
+  "id": "palm-dental-clinic",
+  "slug": "palm-dental-clinic",
+  "name": "Palm dental clinic",
+  "category": "Doctor",
+  "city": "mbarara, uganda",
+  "address": "8H8G+2VH, Kampala",
+  "phone": "",
+  "email": "",
+  "website": "",
+  "rating": null,
+  "review_count": 0,
+  "about": "",
+  "preview": "Trusted Doctor in mbarara, uganda",
+  "cta": {
+    "type": "whatsapp",
+    "label": "Contact Business"
+  },
+  "location": {
+    "maps_url": "https://www.google.com/maps/place/Palm+dental+clinic/@0.341117,32.0118718,10z/data=!4m10!1m2!2m1!1sdental+clinics+in+mbarara,+uganda!3m6!1s0x177dbd15af60026d:0x61ad3c21d7dd2309!8m2!3d0.3150585!4d32.5772492!15sCiFkZW50YWwgY2xpbmljcyBpbiBtYmFyYXJhLCB1Z2FuZGGSAQZkb2N0b3LgAQA!16s%2Fg%2F11h75pc8t0?entry=ttu&g_ep=EgoyMDI2MDExMy4wIKXMDSoASAFQAw%3D%3D"
+  },
+  "reviews": []
+}

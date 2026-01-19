@@ -1,0 +1,23 @@
+{
+  "id": "vani-dental-clinic",
+  "slug": "vani-dental-clinic",
+  "name": "Vani dental clinic",
+  "category": "Dental clinic",
+  "city": "mbarara, uganda",
+  "address": "Ring Road, Kampala",
+  "phone": "762769408",
+  "email": "",
+  "website": "",
+  "rating": 5.0,
+  "review_count": 0,
+  "about": "",
+  "preview": "Trusted Dental clinic in mbarara, uganda",
+  "cta": {
+    "type": "whatsapp",
+    "label": "Contact Business"
+  },
+  "location": {
+    "maps_url": "https://www.google.com/maps/place/Vani+dental+clinic/@0.341117,32.0118718,10z/data=!4m9!1m2!2m1!1sdental+clinics+in+mbarara,+uganda!3m5!1s0x177dbb1e6f350051:0xbc83c4a7c9bd746!8m2!3d0.361414!4d32.596651!16s%2Fg%2F11xt6t8q0v?entry=ttu&g_ep=EgoyMDI2MDExMy4wIKXMDSoASAFQAw%3D%3D"
+  },
+  "reviews": []
+}

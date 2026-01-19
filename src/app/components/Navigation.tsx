@@ -17,6 +17,8 @@ export function Navigation({name = "BrightSmile Dental Clinic", whatsapp = "1234
       element.scrollIntoView({ behavior: 'smooth' });
       setIsMenuOpen(false);
     }
+
+    console.log("Clicked on.")
   };
 
   const navLinks = [

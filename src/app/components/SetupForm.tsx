@@ -238,7 +238,12 @@ export function SetupForm({ onBack, onSubmit }: SetupFormProps) {
         onSubmit(formData);
 
       } catch (err) {
-        setSubmitError("Failed to start lead generation. Make sure backend is running.");
+//         setSubmitError("Failed to start lead generation. Make sure backend is running.");
+            setSubmitError(
+                err instanceof Error
+                  ? err.message
+                  : "Failed to start lead generation. Please try again."
+            );
       } finally {
         setIsSubmitting(false);
       }

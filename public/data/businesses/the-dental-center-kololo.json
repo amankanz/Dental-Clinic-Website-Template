@@ -1,0 +1,23 @@
+{
+  "id": "the-dental-center-kololo",
+  "slug": "the-dental-center-kololo",
+  "name": "The Dental center - Kololo",
+  "category": "Dental clinic",
+  "city": "mbarara, uganda",
+  "address": "Kampala",
+  "phone": "393202698",
+  "email": "",
+  "website": "",
+  "rating": 3.7,
+  "review_count": 15,
+  "about": "",
+  "preview": "Trusted Dental clinic in mbarara, uganda",
+  "cta": {
+    "type": "whatsapp",
+    "label": "Contact Business"
+  },
+  "location": {
+    "maps_url": "https://www.google.com/maps/place/The+Dental+center+-+Kololo/@0.341117,32.0118718,10z/data=!4m10!1m2!2m1!1sdental+clinics+in+mbarara,+uganda!3m6!1s0x177dbb939a2ca2bf:0x5ac4cd93858806e2!8m2!3d0.3269084!4d32.6017783!15sCiFkZW50YWwgY2xpbmljcyBpbiBtYmFyYXJhLCB1Z2FuZGFaIiIgZGVudGFsIGNsaW5pY3MgaW4gbWJhcmFyYSB1Z2FuZGGSAQ1kZW50YWxfY2xpbmljmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVVJsYlRsdGVWZG5FQUXgAQD6AQQIExBL!16s%2Fg%2F11c5bm3n1f?entry=ttu&g_ep=EgoyMDI2MDExMy4wIKXMDSoASAFQAw%3D%3D"
+  },
+  "reviews": []
+}
