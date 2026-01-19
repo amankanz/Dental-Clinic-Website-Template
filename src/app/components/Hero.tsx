@@ -28,7 +28,7 @@ export function Hero({
   const [imageLoaded, setImageLoaded] = useState(false);
 
   return (
-    <section className="relative h-[600px] md:h-[700px] flex items-center justify-center">
+    <section className="relative scroll-mt-20 h-[600px] md:h-[700px] flex items-center justify-center">
       {/* Background Image with Overlay */}
       <div className="absolute inset-0">
         {!imageLoaded && (

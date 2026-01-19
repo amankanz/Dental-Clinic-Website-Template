@@ -11,15 +11,31 @@ interface NavProps {
 export function Navigation({name = "BrightSmile Dental Clinic", whatsapp = "1234567890"}: NavProps) {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  const scrollToSection = (id: string) => {
-    const element = document.getElementById(id);
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
-      setIsMenuOpen(false);
-    }
+//   const scrollToSection = (id: string) => {
+//     const element = document.getElementById(id);
+//     if (element) {
+//       element.scrollIntoView({ behavior: 'smooth' });
+//       setIsMenuOpen(false);
+//     }
+//
+//     console.log("Clicked on.")
+//   };
 
-    console.log("Clicked on.")
-  };
+   const scrollToSection = (id: string) => {
+      const element = document.getElementById(id);
+      if (!element) return;
+
+      // Close menu first
+      setIsMenuOpen(false);
+
+      // Wait for mobile menu collapse animation
+      setTimeout(() => {
+        element.scrollIntoView({
+          behavior: 'smooth',
+          block: 'start',
+        });
+      }, 250); // match motion transition duration
+    };
 
   const navLinks = [
     { label: 'About', id: 'about' },
